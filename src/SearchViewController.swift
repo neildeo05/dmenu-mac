@@ -47,8 +47,8 @@ class SearchViewController: NSViewController, NSTextFieldDelegate,
         updateAppList()
         
         UserDefaults.standard.register(defaults: [
-            //cmd+Space is the default shortcut
-            kDefaultsGlobalShortcutKeycode: kVK_Space,
+            /*cmd+Space is the default shortcut*/
+            kDefaultsGlobalShortcutKeycode: kVK_ANSI_Grave,
             kDefaultsGlobalShortcutModifiedFlags: NSEvent.ModifierFlags.command.rawValue
             ])
         
